@@ -88,3 +88,9 @@ FROM employees
 GROUP BY department;`
 
 এটি প্রতিটি department অনুযায়ী গড় বেতন দেখাবে।
+
+```markdown
+SELECT department, AVG(salary) AS average_salary
+FROM employees
+GROUP BY department;
+```
